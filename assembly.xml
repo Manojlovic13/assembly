@@ -28,7 +28,7 @@
         </fileSet>
         <!-- Include configuration -->
         <fileSet>
-            <directory>${project.basedir}\config</directory>
+            <directory>${project.basedir}\configuration</directory>
             <includes>
                 <include>*</include>
             </includes>
