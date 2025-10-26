@@ -6,6 +6,9 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
 
+/**
+ * Returns property value from configuration file 'application.config' by specifying the property key.
+ */
 public final class ConfigProvider {
     private static final String CONFIG_FILE_NAME = "application.config";
     private static final String EXAMPLE_CONFIG_KEY = "this.is.example.config";

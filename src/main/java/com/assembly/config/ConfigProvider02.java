@@ -8,6 +8,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 
+/**
+ * Returns full content from 'application.config' as String value.
+ */
 public final class ConfigProvider02 {
     private static final String DEFAULT_CONFIG_FILE = "application.config";
     private static final Path[] CONFIG_SEARCH_PATHS = {
